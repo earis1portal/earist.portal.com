@@ -1,0 +1,105 @@
+**{
+	margin: 0;
+	padding: 0;
+	font-family: Joker;
+}
+header{
+	background-image: url(wbackground.png);
+	height: 250vh;
+    width: 250vh;
+	background-size: cover;
+	background-position: center;
+}
+.content{
+	width: 100%;
+	position: absolute;
+	top: 5%;
+	transform: translateY(-60%);
+	text-align: center;
+	color:#CE3A24;
+	font-size: 20px;
+}
+.content1{
+	position: absolute;
+	left: 100px;
+	top: 100px;
+
+}
+.content2{
+	position: absolute;
+	left: 100px;
+	top: 250px;
+	font-size: 30px;
+}
+.content3{
+	position: absolute;
+	left: 100px;
+	top: 300px;
+}
+.content4{
+	position: absolute;
+	left: 1000px;
+	top: 250px;
+	font-size: 40px;
+}
+.content5{
+	position: absolute;
+	left: 1000px;
+	top: 350px;
+}
+.content6{
+	position: absolute;
+	left: 1000px;
+	top: 400px;
+}
+.content7{
+	position: absolute;
+	left: 1000px;
+	top: 450px;
+}
+.content8{
+	position: absolute;
+	left: 1000px;
+	top: 500px;
+}
+.content9{
+	position: absolute;
+	left: 1000px;
+	top: 550px;
+}
+.content5 strong{
+	position: relative;
+	bottom:  9px;
+	left: 5px;
+}
+.content6 strong{
+	position: relative;
+	bottom:  9px;
+	left: 5px;
+}
+.content7 strong{
+	position: relative;
+	bottom:  9px;
+	left: 5px;
+}
+.content8 strong{
+	position: relative;
+	bottom:  9px;
+	left: 5px;
+}
+.content9 strong{
+	position: relative;
+	bottom:  9px;
+	left: 5px;
+}
+.content10{
+	position: absolute;
+	left: 100px;
+	top: 800px;
+	font-size: 30px;
+}
+.content11{
+	position: absolute;
+	left: 100px;
+	top: 900px;
+}

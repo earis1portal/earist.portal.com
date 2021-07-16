@@ -1,0 +1,269 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+header{
+	background-image: url(3.jpg);
+	height: 190vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-right: 50px;
+	
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #AEC122;
+	padding: 10px 30px;
+	transition: 0.6s;
+}
+ul li a:hover{
+	color: #F58C93;
+
+}
+
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+
+/*
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}*/
+
+
+/* EARIST Header */
+.content{
+	width: 100%;
+	position: absolute;
+	top: 30%;
+	transform: translateY(-50%);
+	text-align: center;
+	color:#CE3A24;
+	font-size: 20px;
+}/* EARIST Header */
+
+.content h1{
+
+}
+
+/* Mission Header */
+.content1 h2{
+position: absolute;
+  	left:520px;
+  	top: 270px;
+  	color:#FFD700;
+  	font-size: 40px;
+
+}/* Mission Header */
+
+
+/* Vision Header
+.content1 h2{
+	position: absolute;
+  	left: 170px;
+  	top: 150px;
+  	color:#ff944d;
+  	font-size: 30px;
+
+} */
+
+
+/* Vision Content */
+/*.content1 p{
+	position:absolute;
+	left: 100px; 
+  	top: 200px;
+  	color: #ff9933;
+  	border: 1px solid #fff;
+  	text-align: center;	
+  	background-color: #000000b3;
+	font-style: oblique;
+
+}/* Vision Content */
+
+
+/* Mission Content */
+.content1 p{
+	position:absolute;
+	left: 420px; /* Vision content left & right alignment  */
+  	top: 320px;
+  	color: #ffffff;
+  	text-align: center;	
+  	font-size: 25px;
+	font-style: oblique;
+
+}/* Vision Content */
+
+
+/* Vision Header */
+.content2 h3{
+	position: absolute;
+  	right: 250px;
+  	top: 270px;
+  	color: #FFD700;
+  	font-size: 40px;
+
+}
+/* Vision Content */
+.content2 p{
+	position:absolute;
+	right: 160px; /* Mission content left & right alignment  */
+  	top: 320px;
+  	color: #ffffff;
+ 
+  	font-style: oblique;
+  	font-size: 25px;
+
+	text-align: center;
+
+}/* Mission Content */
+
+
+/* Goal Header */
+.content3 h4{
+	position: absolute;
+  	right: 250px;
+  	top: 520px;
+  	color: #FFD700;
+  	font-size: 40px;
+}
+/* Goal Header */
+
+/* Goal Content */
+.content3 p{
+	position:absolute;
+	right: 30px;
+  	top: 560px;
+  	color: #ffffff;
+	font-style: oblique;
+	font-size: 25px;
+	text-align: center;
+}
+
+
+body {
+	margin: 0;
+	padding:0;
+	background-image: url(avatar2.jpeg)
+	background-position: center;
+	height: 100vh;
+	font-family: Century Gothic;
+}
+
+/* Enter username & password box */
+/* .box{
+	width: 320px;
+	height: 380px;
+	background-color: #000000b3;
+	color:#fff;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left: 50%;
+	top:60%;
+	padding: 70px 30px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}*/
+
+/* Enter username & password box */
+.box{ 
+	width: 320px;
+	height: 380px;
+
+	color:#fff;
+	position: absolute;
+	
+	left: 5%;
+	top:35%;
+	padding: 70px 40px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}/* Enter username & password box */
+.avatar{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	position: absolute;
+	top: -190px;
+	left: 550px;
+}
+h5{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 33px;
+}
+.box input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.box input[type="text"],input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+	outline:none;
+	height: 40px;
+	color: #ffff;
+	font-size: 20px;
+}
+.box input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background-color: #fb2525;
+	color: #cce6ff
+;
+	font-size: 18px;
+	border-radius: 20px;
+	transition: 0.5 ease;
+}
+.box input[type="submit"]:hover{
+	cursor: pointer;
+	background-color: #ffdb4d
+;
+	color: #ff944d
+;
+}
+.box , a
+{
+	color: #E9AB00;
+	text-align: center;
+
+
+}
+header{
+	background-image: url(3.jpg);
+	height: 120vh;
+	background-size: cover;
+	background-position: center;
+}
+span{
+    background: yellowgreen;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}

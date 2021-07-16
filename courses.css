@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Joker;
+}
+header{
+	background-image: url(wbackground.png);
+	height: 210vh;
+  width: 250vh;
+	background-size: cover;
+	background-position: center;
+}
+/*Course*/
+.content {
+	width: 100%;
+	position: absolute;
+	top: 5%;
+	transform: translateY(-60%);
+	text-align: center;
+	color:#CE3A24;
+	font-size: 20px;
+}
+/*program offerings*/
+.content1 h2{
+	position: absolute;
+  	left:100px;
+  	top: 100px;
+  	color:#000000;
+  	font-size: 30px;
+
+}
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+/*Cas content*/
+.content1 p{
+	position:static;
+	left: 100px;
+  	top: 250px;
+  	color: #000000;
+  	text-align: center;	
+  	font-size: 25px;
+	font-style: oblique;
+
+
+}
+.content2 {
+	position: absolute;
+  	left:800px;
+  	top: 150px;
+	font-size: 20px;
+
+}
+
+.content3 p{
+	position: absolute;
+  	left:15px;
+  	top: 235px;
+  	font-size: 20px;
+}
+.content4 {
+	position: absolute;
+  	left:800px;
+  	top: 375px;
+  	font-size: 20px;
+  	
+}
+.content5 {
+	position: absolute;
+  	left:15px;
+  	top: 195px;
+  	font-size: 20px;
+  	text-align: side;
+}
+.content6 {
+	position: absolute;
+  	left:15px;
+  	top: 320px;
+  	font-size: 20px;
+  	text-align: side;
+}
+.content7 {
+	position: absolute;
+  	left:15px;
+  	top: 580px;
+  	font-size: 20px;
+  	text-align: side;
+}
+.content8 {
+	position: absolute;
+  	left:800px;
+  	top: 640px;
+  	font-size: 20px;
+  	text-align: side;
+}
+.content9 {
+	position: absolute;
+	top: 1100px;
+	left: 15px;
+	
+	font-size: 20px;
+  	text-align: side;
+}
+
+
+
+
+
+
+
